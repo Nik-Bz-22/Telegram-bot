@@ -131,18 +131,7 @@ def hhh(message):
                 json.dump(list_info, filee)
                 print(4)
 
-
-        # if message.from_user.id  in json.loads(file.read()):
-        #     pass
-        # elif message.from_user.id not in list_id:
-        #
-        #     with open('db id.json', 'w', encoding='utf-8') as filee:
-        #         list_id.append(message.from_user.id)
-        #         json.dump(list_id, filee)
-                # filee.write(f'username: {message.from_user.username}\nfirst_name: {message.from_user.first_name}\nlast_name: {message.from_user.last_name}\nid: {message.from_user.id}\ntext: {message.text}\n\n\n')
-
     # bot.send_message(1058924864, f'username: {message.from_user.username}\nfirst_name: {message.from_user.first_name}\nlast_name: {message.from_user.last_name}\nid: {message.from_user.id}\ntext: {message.text}')
 
 
-#
 bot.polling()
